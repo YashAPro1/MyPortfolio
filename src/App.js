@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Education from './components/Education';
+import Skill from './components/Skill';
+// import Project from './components/Project';
+// import video from './assets/video.mp4';
+import Project from './components/Project';
+import Contact from './components/Contact';
+// import Start from './components/Start';
+import React,{useState} from 'react'
 function App() {
+  const [inHome, setInHome] = useState(false);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <div className='st'>
+      <Start/>
+      </div> */}
+      <div className='other'>
+      <Navbar/>
+      <Home inHome={inHome} setInHome={setInHome}/>
+      <About/>
+      <Education/>
+      <Project/>
+      <Skill/>
+      <Contact/>
+      </div>
+      
     </div>
   );
 }
