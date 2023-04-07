@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.f773a5d5.css",
-    "main.js": "/MyPortfolio/static/js/main.380fdd99.js",
+    "main.css": "/MyPortfolio/static/css/main.9e99d40a.css",
+    "main.js": "/MyPortfolio/static/js/main.f035e3cb.js",
     "static/js/787.1f11dfe9.chunk.js": "/MyPortfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/resume.pdf": "/MyPortfolio/static/media/resume.65eabffc6dd1544b9760.pdf",
     "static/media/jigyassa.jpg": "/MyPortfolio/static/media/jigyassa.730ca2ceaa541582f06a.jpg",
@@ -13,12 +13,12 @@
     "static/media/Todocards.png": "/MyPortfolio/static/media/Todocards.1ae4e86d265e99c7cf3e.png",
     "static/media/snakegameproj.png": "/MyPortfolio/static/media/snakegameproj.eada3c61d828b9285dda.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.f773a5d5.css.map": "/MyPortfolio/static/css/main.f773a5d5.css.map",
-    "main.380fdd99.js.map": "/MyPortfolio/static/js/main.380fdd99.js.map",
+    "main.9e99d40a.css.map": "/MyPortfolio/static/css/main.9e99d40a.css.map",
+    "main.f035e3cb.js.map": "/MyPortfolio/static/js/main.f035e3cb.js.map",
     "787.1f11dfe9.chunk.js.map": "/MyPortfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f773a5d5.css",
-    "static/js/main.380fdd99.js"
+    "static/css/main.9e99d40a.css",
+    "static/js/main.f035e3cb.js"
   ]
 }
