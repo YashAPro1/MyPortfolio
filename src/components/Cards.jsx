@@ -4,9 +4,9 @@ export default function Cards(props) {
   
   return (
     <motion.div 
-    initial={{opacity:0, x: -100,y:-100}} 
+    initial={{opacity:0, x: 0,y:-100}} 
     whileInView={{opacity:1, x: 0,y:0}} 
-    transition={{duration:1}} 
+    transition={{duration:0.5}} 
     >
       <motion.div  className="box">
                     <h3 style={{color: '#1F51FF'}}>{props.name}</h3>

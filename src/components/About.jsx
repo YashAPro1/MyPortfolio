@@ -3,6 +3,7 @@ import React from 'react'
 // import FileSaver from 'file-saver';
 import {motion} from 'framer-motion';
 import Resume from './resume.pdf';
+
 export default function About() {
 
   
@@ -16,9 +17,7 @@ export default function About() {
       <section className="about" id="about">
             <h1 className="head">About me</h1>
             <motion.div className="sect"
-             initial={{opacity:0, x: -200,y: 100}} 
-             whileInView={{opacity:1, x: 0,y:0}} 
-             transition={{duration:2}} 
+            
             >
                 <div className="aboutme">
                     <h2><span>Name: </span>Yashkumar Sanjaykumar Dubey</h2>
@@ -38,9 +37,9 @@ export default function About() {
                       subdirectory_arrow_right
                       </span>New Leap Initiative(NLI) club member</h2>
                     <motion.div
-                       initial={{opacity:0,y: 50}} 
+                       initial={{opacity:0,x:320}} 
                        whileInView={{opacity:1, x: 0,y:0}} 
-                       transition={{duration:1.5}}
+                       transition={{duration:0.5}}
                     >
 
                     <form action={Resume} method="get">

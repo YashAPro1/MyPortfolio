@@ -75,7 +75,7 @@ video{
 }
 
 html {
-    font-size: 80%;
+    font-size: 65%;
     overflow-x: hidden;
 }
 
@@ -779,6 +779,9 @@ td {
             font-size: 2rem;
             color: var(--font-color);
         }
+
+        
+
         
         
         

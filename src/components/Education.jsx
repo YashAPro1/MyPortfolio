@@ -12,9 +12,9 @@ export default function Education() {
                 
 
                 <motion.div className="UnderCollege s"
-                initial={{opacity:0, x: -200,y: 100}} 
+                initial={{opacity:0, x: 0,y: -100}} 
                 whileInView={{opacity:1, x: 0,y:0}} 
-                transition={{duration:1.5}} 
+                transition={{duration:1}} 
                 >
                     <a href="https://kjsieit.somaiya.edu.in/en">
                         <h2><span>BTech: </span>K J SOMAIYA INSTITUTE OF TECHNOLOGY.</h2>
