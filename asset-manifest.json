@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.50d8950e.css",
-    "main.js": "/MyPortfolio/static/js/main.3ed629e0.js",
+    "main.js": "/MyPortfolio/static/js/main.31fec740.js",
     "static/js/787.1f11dfe9.chunk.js": "/MyPortfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/jigyassa.jpg": "/MyPortfolio/static/media/jigyassa.730ca2ceaa541582f06a.jpg",
     "static/media/pimg.jpg": "/MyPortfolio/static/media/pimg.655bf8155c3deeb10aba.jpg",
-    "static/media/resume.pdf": "/MyPortfolio/static/media/resume.bbcadbe814f93bb19002.pdf",
+    "static/media/resume.pdf": "/MyPortfolio/static/media/resume.c68840b45b4957735661.pdf",
     "static/media/automated_mail.jpg": "/MyPortfolio/static/media/automated_mail.859c2d92222a29d86fef.jpg",
     "static/media/tictactoe.jpeg": "/MyPortfolio/static/media/tictactoe.f7bfe030eb7af84b26d6.jpeg",
     "static/media/ponggame.png": "/MyPortfolio/static/media/ponggame.0d3ec26514490fe2e4e8.png",
@@ -14,11 +14,11 @@
     "static/media/snakegameproj.png": "/MyPortfolio/static/media/snakegameproj.eada3c61d828b9285dda.png",
     "index.html": "/MyPortfolio/index.html",
     "main.50d8950e.css.map": "/MyPortfolio/static/css/main.50d8950e.css.map",
-    "main.3ed629e0.js.map": "/MyPortfolio/static/js/main.3ed629e0.js.map",
+    "main.31fec740.js.map": "/MyPortfolio/static/js/main.31fec740.js.map",
     "787.1f11dfe9.chunk.js.map": "/MyPortfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50d8950e.css",
-    "static/js/main.3ed629e0.js"
+    "static/js/main.31fec740.js"
   ]
 }
