@@ -10,77 +10,47 @@ export default function Education() {
                 
             >
                 
-
-                <motion.div className="UnderCollege s"
-                initial={{opacity:0, x: 0,y: -100}} 
-                whileInView={{opacity:1, x: 0,y:0}} 
-                transition={{duration:1}} 
-                >
-                    <a href="https://kjsieit.somaiya.edu.in/en">
-                        <h2><span>BTech: </span>K J SOMAIYA INSTITUTE OF TECHNOLOGY.</h2>
-                    </a>  
-                    <div className="underedu">
-
-                    <motion.table className='table'>
-                                    <tbody>
-                                        <tr>
-                                            <th>Semester</th>
-                                            <th>CGPA</th>
-                                            
-                                        </tr>
-                                        <tr>
-                                        <th>1st</th>
-                                        <th>10</th>
-                                        </tr>
-                                        <tr>
-                                        <th>2nd</th>
-                                        <th>10</th>
-                                        </tr>
-                                        <tr>
-                                        <th>3rd</th>
-                                        <th>10</th>
-                                        </tr>
-                                    </tbody>
-                                </motion.table>    
-                    </div>
+            <a className="fulldiv" href="https://kjsieit.somaiya.edu.in/en" target='blank'>
+            <motion.div className="UnderCollege"
+            initial={{opacity:0, x: 0,y: 100}} 
+            whileInView={{opacity:1, x: 0,y:0}} 
+            transition={{duration:1}} >
+                    
+                <h2>K J SOMAIYA INSTITUTE OF TECHNOLOGY.</h2>
+                <h4>Bachelor's in Computer Science</h4>
+                <h5>Avg GPA: 10 CGPA</h5>
+                      
+                    
                     
                 
                 </motion.div>
-                <motion.div className="College s"
-                initial={{opacity:0, x: -200,y: 100}} 
+                </a>
+                <a className="fulldiv" href="http://pacejuniorsciencecollege.com/pace-jr-science-college-thane.php" target='blank'>
+                <motion.div className="College"
+                initial={{opacity:0, x: 0,y: 100}} 
                 whileInView={{opacity:1, x: 0,y:0}} 
                 transition={{duration:1.5}} 
                 >
-                    <a href="http://pacejuniorsciencecollege.com/pace-jr-science-college-thane.php">
-                        <h2><span>College: </span>PACE JUNIOR SCIENCE COLLEGE.</h2>
-                    </a>
-                    <div className="underedu">
-                    <motion.table className='table'>
-                                    <tbody>
-                                        <tr>
-                                            <th>Hsc</th>
-                                            <th>Percentage</th>
-                                            
-                                        </tr>
-                                        <tr>
-                                        <th>12th</th>
-                                        <th>89.50%</th>
-                                        </tr>
-                                        
-                                    </tbody>
-                                </motion.table>    
-                                </div>
+                    
+                    <h2>PACE JUNIOR SCIENCE COLLEGE.</h2>
+                    <h4>12th Grade.</h4>
+                    <h5>Pecentage: 89.5%</h5>
+                    
                 </motion.div>
-                <motion.div className="School s"
-                initial={{opacity:0, x: -200,y: 100}} 
+                </a>
+                <a className="fulldiv" href="https://padmavativenkatesh.in/" target='blank'>
+                <motion.div className="School"
+                initial={{opacity:0, x: 0,y: 100}} 
                 whileInView={{opacity:1, x: 0,y:0}} 
                 transition={{duration:1.5}} 
                 >
-                    <a href="https://padmavativenkatesh.in/">
-                        <h2><span>School: </span>PADMAVATI VENKATESH HIGH SCHOOL AND JUNIOR COLLEGE.</h2>
-                    </a>
+                    
+                        <h2>PADMAVATI VENKATESH HIGH SCHOOL AND JUNIOR COLLEGE.</h2>
+                        <h4>PADMAVATI VENKATESH HIGH SCHOOL AND JUNIOR COLLEGE.</h4>
+                        <h5>Pecentage: 77%</h5>
+                    
                 </motion.div>
-
+                </a>
             </motion.div>
         </section>
     </motion.div>

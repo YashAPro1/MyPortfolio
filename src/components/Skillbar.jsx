@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 export default function Skillbar(props) {
   return (
     <motion.div
-    initial={{opacity:0, x: 0,y:-100}} 
+    initial={{opacity:0, x: 0,y:100}} 
     whileInView={{opacity:1, x: 0,y:0}} 
     transition={{duration:1}} 
     >

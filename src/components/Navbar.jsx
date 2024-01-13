@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react"
 import React from 'react'
 // import { a } from 'react-router-dom';
-import image from "../assets/pimg.jpg";
+import image from "../assets/logo.png";
+// import image from "../assets/pimg.jpg";
 import {motion} from 'framer-motion'
 export default function Navbar() {
 
@@ -42,19 +43,21 @@ export default function Navbar() {
     <motion.div>
       <header id='#head'>
             <div className="userinfo">
-                <img src={image} alt="" style={{margin:"5px"}}/>
-                <h2 className="name">Yashkumar Dubey</h2>
-                <p className="userdeal">Python Devloper</p>
+                <img src={image} alt="" style={{margin:"5px",width:"100%",transform:"scale(1.65)"}}/>
+                {/* <h2 className="name">Hi, I'm</h2>
+                <h2 className="name">Yashkumar Dubey</h2> */}
+                <p className="userdeal"> A Software Devloper</p>
             </div>
             
             <nav className="navbar">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#Education">Education</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Skill">Skill</a></li>
-                    <li><a href="#contactMe">contactMe</a></li>
+                    <li><a href="#home">AboutMe()</a></li>
+                    <li><a href="#about">MyExperience()</a></li>  
+                    {/* <li><a href="#Education">MyQualifications()</a></li> */}
+                    <li><a href="#Projects">MyDeveloperSection()</a></li>
+                    <li><a href="#Blogs">MyBlogs()</a></li>
+                    <li><a href="#Skill">MySkills()</a></li>
+                    <li><a href="#contactMe">ConnectWithMe()</a></li>
                 </ul>
             </nav>
             
@@ -64,9 +67,9 @@ export default function Navbar() {
             menu
         </span>
 
-        <span className="material-symbols-outlined" id="themebtb" onClick={changeTheme}>
+        {/* <span className="material-symbols-outlined" id="themebtb" onClick={changeTheme}>
         dark_mode
-        </span>
+        </span> */}
     </motion.div>
   )
 }
