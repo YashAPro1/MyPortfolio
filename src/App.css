@@ -1085,7 +1085,7 @@ td {
         }
         .homeImg img {
             width: 12rem;
-            height: 15rem;
+            /* height: 15rem; */
             border-radius: 10px;
             
             /* display: none; */

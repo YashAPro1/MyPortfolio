@@ -24,7 +24,7 @@ export default function About() {
                       {/* Educational Volunteering Starts */}
                       <section className="col">
                         <h2 className="title">
-                          Academic
+                          Academics
                         </h2>
                         <div className="contents">
                           <div className="box">

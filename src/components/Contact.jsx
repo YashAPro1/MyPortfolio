@@ -19,7 +19,7 @@ export default function Contact() {
                   
                   
                   
-                  <li class="list-item" ><i class="fa fa-envelope fa-2x"><span class="gmail"><a href="mailto:#" title="Send me an email" style={{color:"white"}}>ydubey7979@gmail.com</a></span></i></li>
+                  <li class="list-item" ><i class="fa fa-envelope fa-2x"><span class="gmail"><a href="mailto:#" title="Send me an email" style={{color:"white",fontFamily:"'Anonymous Pro',monospace",textDecoration:"none"}}>ydubey7979@gmail.com</a></span></i></li>
                   
                 </ul>
 

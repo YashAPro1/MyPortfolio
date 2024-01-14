@@ -9,20 +9,39 @@ export default function Navbar() {
   const [isToogle,setIsToggle] = useState(false); 
   const [theme, setTheme] = useState("dark-theme");
 
+  function btntgle() {
+      if(isToogle===false)
+      {
+        const head = document.querySelector("header");
+        
+        head.style.left = '0px';
+        
+        setIsToggle(true)
+      }
+      else{
+        const head = document.querySelector("header");
+        
+        head.style.left = '-120%';
+        setIsToggle(false)
+      }
+  }
   function tgle() {
-    if(isToogle===false)
-    {
-      const head = document.querySelector("header");
-      
-      head.style.left = '0px';
-      
-      setIsToggle(true)
-    }
-    else{
-      const head = document.querySelector("header");
-      
-      head.style.left = '-120%';
-      setIsToggle(false)
+    if (window.innerWidth<=768){
+      if(isToogle===false)
+      {
+        const head = document.querySelector("header");
+        
+        head.style.left = '0px';
+        
+        setIsToggle(true)
+      }
+      else{
+        const head = document.querySelector("header");
+        
+        head.style.left = '-120%';
+        setIsToggle(false)
+      }
+
     }
   }
 
@@ -47,7 +66,7 @@ export default function Navbar() {
                 <img src={image} alt="" style={{margin:"5px",width:"100%",transform:"scale(1.65)"}}/>
                 {/* <h2 className="name">Hi, I'm</h2>
                 <h2 className="name">Yashkumar Dubey</h2> */}
-                <p className="userdeal"> A Software Devloper</p>
+                <p className="userdeal">Software Devloper</p>
             </div>
             
             <nav className="navbar">
@@ -64,7 +83,7 @@ export default function Navbar() {
             
         </header>
 
-        <span className="material-symbols-outlined tooglebtn" id="tbtn" onClick={tgle}>
+        <span className="material-symbols-outlined tooglebtn" id="tbtn" onClick={btntgle}>
             menu
         </span>
 

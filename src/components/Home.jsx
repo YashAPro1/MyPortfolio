@@ -26,7 +26,7 @@
 
                     <h2 className="name">Hi, I'm </h2>
                     <h2 className="name">Yashkumar Dubey</h2>
-                    <h5 className="name">A Software Developer | Machine Learning Engineer | Artificial Intelligence | Data Science | Full Stack  </h5>
+                    <h5 className="name">Software Developer | Machine Learning Engineer | Artificial Intelligence | Data Science | Full Stack  </h5>
                     </div>
                   </div>
                   
@@ -61,7 +61,7 @@
                   transition={{duration:1}}
                 >
                   <form action={Resume} method="get" target= "blank" className="Btn">
-                      <button  href={Resume}  style={{display:"flex",textAlign:"center",background:"transparent", color:"white"}} >MyResume
+                      <button  href={Resume}  style={{display:"flex",textAlign:"center",background:"transparent", color:"white",cursor:"pointer"}} >MyResume
                       <span className="material-symbols-outlined" >
                       download
                         </span></button></form>
