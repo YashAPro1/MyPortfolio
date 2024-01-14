@@ -1083,6 +1083,14 @@ td {
             width: 250px;
             
         }
+        .homeImg img {
+            width: 12rem;
+            height: 15rem;
+            border-radius: 10px;
+            
+            /* display: none; */
+            /* border: 0.1rem solid var(--font-color); */
+        }
         
         
     }

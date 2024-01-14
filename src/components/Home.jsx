@@ -13,9 +13,9 @@
     return (
       <>
       <motion.div 
-        initial={{opacity:0, x: 200,y: 100}} 
-        whileInView={{opacity:1, x: 0,y:0}} 
-        transition={{duration:0.5}}
+        // initial={{opacity:0, x: 200,y: 100}} 
+        // whileInView={{opacity:1, x: 0,y:0}} 
+        // transition={{duration:0.5}}
       >
         <section className="home" id="home">
               

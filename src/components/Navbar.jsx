@@ -25,7 +25,7 @@ export default function Navbar() {
       setIsToggle(false)
     }
   }
-  
+
   function changeTheme() {
     if (theme === "dark-theme"){
       setTheme("light-theme")
@@ -52,13 +52,13 @@ export default function Navbar() {
             
             <nav className="navbar">
                 <ul>
-                    <li><a href="#home">AboutMe()</a></li>
-                    <li><a href="#about">MyExperience()</a></li>  
+                    <li><a href="#home" onClick={tgle}>AboutMe()</a></li>
+                    <li><a href="#about" onClick={tgle}>MyExperience()</a></li>  
                     {/* <li><a href="#Education">MyQualifications()</a></li> */}
-                    <li><a href="#Projects">MyDeveloperSection()</a></li>
-                    <li><a href="#Blogs">MyBlogs()</a></li>
-                    <li><a href="#Skill">MySkills()</a></li>
-                    <li><a href="#contactMe">ConnectWithMe()</a></li>
+                    <li><a href="#Projects" onClick={tgle}>MyDeveloperSection()</a></li>
+                    <li><a href="#Blogs" onClick={tgle}>MyBlogs()</a></li>
+                    <li><a href="#Skill" onClick={tgle}>MySkills()</a></li>
+                    <li><a href="#contactMe" onClick={tgle}>ConnectWithMe()</a></li>
                 </ul>
             </nav>
             
