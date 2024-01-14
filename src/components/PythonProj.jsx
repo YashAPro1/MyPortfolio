@@ -28,11 +28,11 @@ export default function PythonProj() {
                 />
             </div>
         </section>
-        <Link to="/MyPortfolio#Projects">
+        <a href="/MyPortfolio#Projects">
         <span className="material-symbols-outlined" id="backbtn">
         arrow_back
         </span>
-        </Link>
+        </a>
     </motion.div>
   )
 }

@@ -14,6 +14,11 @@ import {motion} from 'framer-motion';
 
 
 export default function WebProject() {
+    window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth',
+      });
   return (
     <motion.div>
       <section className="Blogs" id="Blogs">
@@ -47,7 +52,7 @@ export default function WebProject() {
                 />
             </div>
         </section>
-        <Link to="/MyPortfolio#Projects">
+        <Link to="/MyPortfolio#Projects">   
         <span className="material-symbols-outlined" id="backbtn">
         arrow_back
         </span>

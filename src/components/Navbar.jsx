@@ -25,6 +25,7 @@ export default function Navbar() {
       setIsToggle(false)
     }
   }
+  
   function changeTheme() {
     if (theme === "dark-theme"){
       setTheme("light-theme")

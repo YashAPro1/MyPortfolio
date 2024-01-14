@@ -10,6 +10,11 @@ import {motion} from 'framer-motion';
 
 
 export default function Android() {
+  window.scroll({
+    top: 0, 
+    left: 0, 
+    behavior: 'smooth',
+  });
   return (
     <motion.div>
       <section className="Blogs" id="Blogs">

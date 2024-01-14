@@ -14,6 +14,11 @@ import face from "../assets/face.jpeg"
 import stock from "../assets/stock.jpeg"
 
 export default function DataScience() {
+    window.scroll({
+        top: 0, 
+        left: 0, 
+        behavior: 'smooth',
+      });
   return (
     <motion.div>
       <section className="Blogs" id="Blogs">
@@ -48,11 +53,11 @@ export default function DataScience() {
                 
             </div>
         </section>
-        <Link to="/MyPortfolio#Projects">
+        <a href="/MyPortfolio#Projects">
         <span className="material-symbols-outlined" id="backbtn">
         arrow_back
         </span>
-        </Link>
+        </a>
     </motion.div>
   )
 }
