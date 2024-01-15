@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.e0cd5247.css",
-    "main.js": "/MyPortfolio/static/js/main.c0151d57.js",
+    "main.css": "/MyPortfolio/static/css/main.f83bb498.css",
+    "main.js": "/MyPortfolio/static/js/main.6ab67981.js",
     "static/js/787.1f11dfe9.chunk.js": "/MyPortfolio/static/js/787.1f11dfe9.chunk.js",
     "static/media/favicon.png": "/MyPortfolio/static/media/favicon.90242d6c870603375775.png",
     "static/media/algo.png": "/MyPortfolio/static/media/algo.deef3cd6b72f36e54a35.png",
@@ -26,13 +26,14 @@
     "static/media/cicd.jpeg": "/MyPortfolio/static/media/cicd.23b1f5159ff15287a78b.jpeg",
     "static/media/androidimg.jpg": "/MyPortfolio/static/media/androidimg.d92b83ab6c343c31538d.jpg",
     "static/media/fakenews.jpeg": "/MyPortfolio/static/media/fakenews.97b99cde83cf0915c401.jpeg",
+    "static/media/rlhf.jpeg": "/MyPortfolio/static/media/rlhf.3d54e4e2e139eaf0a7df.jpeg",
     "index.html": "/MyPortfolio/index.html",
-    "main.e0cd5247.css.map": "/MyPortfolio/static/css/main.e0cd5247.css.map",
-    "main.c0151d57.js.map": "/MyPortfolio/static/js/main.c0151d57.js.map",
+    "main.f83bb498.css.map": "/MyPortfolio/static/css/main.f83bb498.css.map",
+    "main.6ab67981.js.map": "/MyPortfolio/static/js/main.6ab67981.js.map",
     "787.1f11dfe9.chunk.js.map": "/MyPortfolio/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0cd5247.css",
-    "static/js/main.c0151d57.js"
+    "static/css/main.f83bb498.css",
+    "static/js/main.6ab67981.js"
   ]
 }
