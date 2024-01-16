@@ -20,7 +20,7 @@
         <section className="home" id="home">
               
               <div className="homeImg" style={{display:"flex"}}>
-                  <img src={image} alt="" style={{margin:"5px"}}/>
+                  <img src={image} alt="" style={{margin:"5px",borderRadius:"50%"}}/>
                   <div className="namediv">
                     <div>
 
@@ -34,7 +34,7 @@
               <h1 className="headertag">Welcome To My Universe!</h1>
               <div className="infocard" style={{width:"100%"}}>
                 <div className="quot" style={{width:"100%"}}>
-                <p>
+                <p style={{width:"90%",textAlign:"justify"}}>
                   I'm passionate about continuous learning and driven to embrace emerging technologies, I am dedicated to cultivating a growth mindset as a developer. Committed to expanding my skill set, I thrive on challenges that push me beyond my comfort zone.
                 </p>
                 </div>
@@ -60,7 +60,7 @@
                   whileInView={{opacity:1, x: 0,y:0}} 
                   transition={{duration:1}}
                 >
-                  <form action={Resume} method="get" target= "blank" className="Btn">
+                  <form action={Resume} method="get" target= "blank" className="Btn" style={{margin:"auto",marginTop:"2rem"}}>
                       <button  href={Resume}  style={{display:"flex",textAlign:"center",background:"transparent", color:"white",cursor:"pointer"}} >MyResume
                       <span className="material-symbols-outlined" >
                       download

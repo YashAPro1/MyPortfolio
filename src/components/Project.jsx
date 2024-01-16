@@ -25,32 +25,32 @@ export default function Project() {
             <Link to="/MyPortfolio/datascience">
                 <div className="alltopics" style={{margin:"3rem",border:"1px solid #333",padding:"1rem",width:"90%"}}>
                     <div className="strcard" style={{display:"flex",flexDirection:"row",}}>
-                        <img src={datasciimg} alt="" style={{width:"15%",height:"100px"}}/>
-                        <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem"}}>Data Science | AI | ML Projects </h3>
+                        <img src={datasciimg} alt="" style={{width:"15%"}}/>
+                        <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem",textAlign:"center"}}>Data Science | AI | ML Projects </h3>
                     </div>
                 </div>
             </Link>
             <Link to="/MyPortfolio/web">
                 <div className="alltopics" style={{margin:"3rem",border:"1px solid #333",padding:"1rem",width:"90%"}}>
-                    <div className="strcard" style={{display:"flex",flexDirection:"row",}}>
-                        <img src={webimg} alt="" style={{width:"15%",height:"100px"}}/>
-                        <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem"}}>Web Development Projects </h3>
+                    <div className="strcard" style={{display:"flex",flexDirection:"row"}}>
+                        <img src={webimg} alt="" style={{width:"15%"}}/>
+                        <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem",textAlign:"center"}}>Web Development Projects </h3>
                     </div>
                 </div>
             </Link>
             <Link to="">
             <div className="alltopics" style={{margin:"3rem",border:"1px solid #333",padding:"1rem",width:"90%"}}>
                 <div className="strcard" style={{display:"flex",flexDirection:"row",}}>
-                    <img src={andimg} alt="" style={{width:"15%",height:"100px"}}/>
-                    <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem"}}>App Development Projects </h3>
+                    <img src={andimg} alt="" style={{width:"15%"}}/>
+                    <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem",textAlign:"center"}}>App Development Projects </h3>
                 </div>
             </div>
             </Link>
             <Link to="https://github.com/YashAPro1/Python-Projects" target='_blank'>
             <div className="alltopics" style={{margin:"3rem",border:"1px solid #333",padding:"1rem",width:"90%"}}>
                 <div className="strcard" style={{display:"flex",flexDirection:"row",}}>
-                    <img src={pythonimg} alt="" style={{width:"15%",height:"100px"}}/>
-                    <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem"}}>Python Projects </h3>
+                    <img src={pythonimg} alt="" style={{width:"15%"}}/>
+                    <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem",textAlign:"center"}}>Python Projects </h3>
                 </div>
             </div>
             </Link>
