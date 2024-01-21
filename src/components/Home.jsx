@@ -34,7 +34,7 @@
               <h1 className="headertag">Welcome To My Universe!</h1>
               <div style={{width:"100%"}}>
                 <div className="quot" style={{width:"100%"}}>
-                <p style={{width:"90%",textAlign:"-moz-initial"}}>
+                <p style={{width:"100%",textAlign:"left"}}>
                   I'm passionate about continuous learning and driven to embrace emerging technologies, I am dedicated to cultivating a growth mindset as a developer. Committed to expanding my skill set, I thrive on challenges that push me beyond my comfort zone.
                 </p>
                 </div>
