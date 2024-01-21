@@ -32,15 +32,27 @@
                   
               </div>
               <h1 className="headertag">Welcome To My Universe!</h1>
-              <div className="infocard" style={{width:"100%"}}>
+              <div style={{width:"100%"}}>
                 <div className="quot" style={{width:"100%"}}>
-                <p style={{width:"90%",textAlign:"justify"}}>
+                <p style={{width:"90%",textAlign:"-moz-initial"}}>
                   I'm passionate about continuous learning and driven to embrace emerging technologies, I am dedicated to cultivating a growth mindset as a developer. Committed to expanding my skill set, I thrive on challenges that push me beyond my comfort zone.
                 </p>
                 </div>
+                <motion.div
+                  initial={{opacity:0,y: 100}} 
+                  whileInView={{opacity:1, x: 0,y:0}} 
+                  transition={{duration:1}}
+                >
+                  <form action={Resume} method="get" target= "blank" className="Btn" style={{margin:"auto",marginTop:"2rem"}}>
+                      <button  href={Resume}  style={{display:"flex",textAlign:"center",background:"transparent", color:"white",cursor:"pointer"}} >MyResume
+                      <span className="material-symbols-outlined" >
+                      download
+                        </span></button></form>
+              {/* <a href="#about" className=" Btn">About me</a> */}
+                </motion.div>
                 <div className="cardss">
                   <div className="crdd">
-                    <h3>Data Science/AIML</h3>
+                    <h3>Data Science/AIML</h3>  
                   </div>
                   <div className="crdd">
                     <h3>Web Development</h3>
@@ -55,7 +67,7 @@
               </div>
               
               
-                <motion.div
+                {/* <motion.div
                   initial={{opacity:0,y: 100}} 
                   whileInView={{opacity:1, x: 0,y:0}} 
                   transition={{duration:1}}
@@ -64,9 +76,9 @@
                       <button  href={Resume}  style={{display:"flex",textAlign:"center",background:"transparent", color:"white",cursor:"pointer"}} >MyResume
                       <span className="material-symbols-outlined" >
                       download
-                        </span></button></form>
+                        </span></button></form> */}
               {/* <a href="#about" className=" Btn">About me</a> */}
-                </motion.div>
+                {/* </motion.div> */}
               {/* <Link to="#about" class=" Btn aboutBtn">About me</Link> */}
           </section>
 
