@@ -110,7 +110,7 @@ body {
     /* background-repeat: no-repeat; */
     background-size: contain cover;
     /* background: linear-gradient(var(--bg-color), var(--bg1-color), var(--bg-color),var(--bg1-color)); */
-    /* overflow-x: hidden; */
+
     /* scroll-behavior: smooth; */
 }
 
@@ -903,6 +903,10 @@ td {
   
   /* Begin Media Queries*/
   @media screen and (max-width: 850px) {
+
+    body {
+        overflow-x: hidden;
+    }
     .contact-wrapper {
       display: flex;
       flex-direction: column;
