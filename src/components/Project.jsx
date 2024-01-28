@@ -1,16 +1,10 @@
 import React from 'react'
-import Jigyaasa from '../assets/jigyassa.jpg';
-import Auto from '../assets/automated_mail.jpg';
+
 // import fc from '../assets/fc.mp4';
-import ml from '../assets/mlprojimg.webp';
-import Tic from '../assets/tictactoe.jpeg';
-import ponggame from '../assets/ponggame.png';
-import Snake from '../assets/snakegameproj.png';
-import Todo from '../assets/Todocards.png';
-import datasciimg from "../assets/dataimg.png"
-import webimg from "../assets/webdev.jpg"
-import andimg from "../assets/androidimg.jpg"
-import pythonimg from "../assets/pythonimg.png"
+import datasciimg from "../assets/DSprojects.jpeg"
+import webimg from "../assets/allwebdev.jpeg"
+import andimg from "../assets/allandroidimg.jpeg"
+import pythonimg from "../assets/allpythonProjects.jpeg"
 import {Link} from "react-router-dom"
 import Card from './Cards';
 
@@ -25,35 +19,50 @@ export default function Project() {
             <Link to="/MyPortfolio/datascience">
                 <div className="alltopics" style={{margin:"3rem",border:"1px solid #333",padding:"1rem",width:"90%"}}>
                     <div className="strcard" style={{display:"flex",flexDirection:"row",}}>
-                        <img src={datasciimg} alt="" style={{width:"15%"}}/>
-                        <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem",textAlign:"center"}}>Data Science | AI | ML Projects </h3>
+                        <img src={datasciimg} alt="" style={{width:"15%",borderRadius:"1rem"}}/>
+                        <div>
+                            <h3 style={{marginLeft:"2rem"}}>Data Science | AI | ML Projects </h3>
+                            <p style={{width:"100%",marginTop:"1rem",marginLeft:"2rem"}}>Here I have made all the Data Science and Ml related projects</p>
+
+                        </div>
                     </div>
                 </div>
             </Link>
             <Link to="/MyPortfolio/web">
                 <div className="alltopics" style={{margin:"3rem",border:"1px solid #333",padding:"1rem",width:"90%"}}>
                     <div className="strcard" style={{display:"flex",flexDirection:"row"}}>
-                        <img src={webimg} alt="" style={{width:"15%"}}/>
-                        <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem",textAlign:"center"}}>Web Development Projects </h3>
+                        <img src={webimg} alt="" style={{width:"15%",borderRadius:"1rem"}}/>
+                        <div>
+                            <h3 style={{marginTop:"1rem",marginLeft:"2rem"}}>Web Development Projects </h3>
+                            <p style={{width:"100%",marginTop:"1rem",marginLeft:"2rem"}}>All my Websites that I have made you can see here..</p>
+                        </div>
+                        
                     </div>
                 </div>
-            </Link>
-            <Link to="">
-            <div className="alltopics" style={{margin:"3rem",border:"1px solid #333",padding:"1rem",width:"90%"}}>
-                <div className="strcard" style={{display:"flex",flexDirection:"row",}}>
-                    <img src={andimg} alt="" style={{width:"15%"}}/>
-                    <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem",textAlign:"center"}}>App Development Projects </h3>
-                </div>
-            </div>
             </Link>
             <Link to="https://github.com/YashAPro1/Python-Projects" target='_blank'>
             <div className="alltopics" style={{margin:"3rem",border:"1px solid #333",padding:"1rem",width:"90%"}}>
                 <div className="strcard" style={{display:"flex",flexDirection:"row",}}>
-                    <img src={pythonimg} alt="" style={{width:"15%"}}/>
-                    <h3 style={{width:"50%",height:"100%",marginTop:"1rem",marginLeft:"1rem",textAlign:"center"}}>Python Projects </h3>
+                    <img src={pythonimg} alt="" style={{width:"15%",borderRadius:"1rem"}}/>
+                    <div>
+                            <h3 style={{marginTop:"1rem",marginLeft:"2rem"}}>Python Projects </h3>
+                            <p style={{width:"100%",marginTop:"1rem",marginLeft:"2rem"}}>All my Python Projects you can see here..</p>
+                        </div>
                 </div>
             </div>
             </Link>
+            <Link to="">
+            <div className="alltopics" style={{margin:"3rem",border:"1px solid #333",padding:"1rem",width:"90%"}}>
+                <div className="strcard" style={{display:"flex",flexDirection:"row",}}>
+                    <img src={andimg} alt="" style={{width:"15%",borderRadius:"1rem"}}/>
+                    <div>
+                            <h3 style={{marginTop:"1rem",marginLeft:"2rem"}}>Android Development Projects </h3>
+                            <p style={{width:"100%",marginTop:"1rem",marginLeft:"2rem"}}>All my App Projects you can see here..</p>
+                        </div>
+                </div>
+            </div>
+            </Link>
+            
             {/* <div className="sect">
                 <Card
                     name='ToDo Cards'

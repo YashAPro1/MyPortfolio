@@ -1,6 +1,4 @@
 import React from 'react'
-import Jigyaasa from '../assets/jigyassa.jpg';
-import Auto from '../assets/automated_mail.jpg';
 // import fc from '../assets/fc.mp4';
 import Card from './Cards';
 import mlimg from "../assets/ml.jpeg"

@@ -1,14 +1,11 @@
 import React from 'react'
-import Jigyaasa from '../assets/jigyassa.jpg';
-import Auto from '../assets/automated_mail.jpg';
+
 // import fc from '../assets/fc.mp4';
 import Card from './Cards';
-import mlimg from "../assets/ml.jpeg"
-import cicd from "../assets/cicd.jpeg"
 import { Link } from 'react-router-dom';
 import {motion} from 'framer-motion';
-import tomato from "../assets/tomato.jpeg"
-import laptop from "../assets/laptop.jpeg"
+import tomato from "../assets/tomatoimage.jpeg"
+import laptop from "../assets/Laptoppricepred.jpeg"
 import fake from "../assets/fakenews.jpeg"
 import face from "../assets/face.jpeg"
 import stock from "../assets/stock.jpeg"

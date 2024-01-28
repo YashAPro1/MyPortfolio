@@ -84,22 +84,24 @@ video{
 html {
     font-size: 65%;
     overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
+/* scrollbar */
+/* 
 html::-webkit-scrollbar {
     width: 1.4rem;
-}
+} */
 
 
-html::-webkit-scrollbar-track {
-    /* width: 1.4rem; */
+/* html::-webkit-scrollbar-track {
     background: #222;
-}
+} */
 
-html::-webkit-scrollbar-thumb {
-    /* width: 1.4rem; */
+/* html::-webkit-scrollbar-thumb {
     background: var(--header-font-color);
-}
+} */
 
 body {
     padding-left: 35rem;
@@ -108,14 +110,14 @@ body {
     /* background-repeat: no-repeat; */
     background-size: contain cover;
     /* background: linear-gradient(var(--bg-color), var(--bg1-color), var(--bg-color),var(--bg1-color)); */
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+    /* scroll-behavior: smooth; */
 }
 
 section {
     /* min-height: 100vh; */
     padding: 1rem;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth;  */
 }
 
 .sect {
@@ -364,6 +366,7 @@ header .navbar ul li a:hover {
     font-size: 1.5rem;
     width: 20rem;
     border-radius: 1rem;
+    text-align: center;
     /* border-color: rgba(157, 151, 151, 0.1); */
     border-width: 2px;
     /* backdrop-filter: blur(15px); */
@@ -617,10 +620,21 @@ td {
     /* top: -10rem; */
     /* color: transparent; */
     width: 100%;
-    padding: 1rem;
+    /* padding: 1rem; */
     width: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+}
+#Projects p {
+    font-size: 1.25rem;
+    color: #ffffff;
+    /* top: -10rem; */
+    /* color: transparent; */
+    width: 100%;
+    /* padding: 1rem; */
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
 }
 #Blogs h3 {
     font-size: 2rem;
@@ -637,6 +651,7 @@ td {
 
 .alltopics {
     cursor: pointer;
+    border-radius: 1rem;
 }
 .alltopics:hover{
     box-shadow: 0px 3px 20px 0px #ccc;
@@ -1069,6 +1084,7 @@ td {
 
         .crdd {
             width: 15rem;
+            text-align: center;
         }
         .inpput{
             width: 200px;

@@ -1,6 +1,8 @@
 import React from 'react'
 import {motion} from 'framer-motion';
 import Skillbar from './Skillbar';
+import pyicon from "../assets/pyicon.png"
+import reacticon from "../assets/reactjsicon.png"
 export default function Skill() {
   return (
     <motion.div>
@@ -11,9 +13,11 @@ export default function Skill() {
                 <section className="colskill">
                   <div className="contents">
                     <div className="box">
-                      <h5>Python.</h5>
+                      <img src={pyicon} alt="" style={{width:"2rem"}} />
+                      <h5>Python</h5>
                     </div>
                     <div className="box">
+                    
                       <h5>Machine Learning</h5>
                     </div>
                     <div className="box">
@@ -61,6 +65,7 @@ export default function Skill() {
                 <section className="colskill">
                   <div className="contents">
                     <div className="box">
+                    <img src={reacticon} alt="" style={{width:"2rem",}} />  
                       <h5>Reactjs</h5>
                     </div>
                     <div className="box">

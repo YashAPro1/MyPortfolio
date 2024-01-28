@@ -1,10 +1,7 @@
 import React from 'react'
 import Jigyaasa from '../assets/jigyassa.jpg';
-import Auto from '../assets/automated_mail.jpg';
 // import fc from '../assets/fc.mp4';
 import Card from './Cards';
-import mlimg from "../assets/ml.jpeg"
-import cicd from "../assets/cicd.jpeg"
 import { Link } from 'react-router-dom';
 import tocards from "../assets/tocards.png"
 import algo from "../assets/algo.png"
